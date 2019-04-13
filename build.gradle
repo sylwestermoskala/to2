@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'war'
+    
+}
+
+
+
+group 'pl.projectTO2'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.1.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.1.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.1.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.6.RELEASE'
+// https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp
+    compile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.46'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.0.4.Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-commons-annotations
+//    compile group: 'org.hibernate', name: 'hibernate-commons-annotations', version: '3.2.0.Final'
+
+}
+
+
+
+
