@@ -2,10 +2,7 @@ package com.config.service;
 
 import com.config.domain.Usersdetails;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -42,7 +39,7 @@ public class UsersdetailsService {
         map.add("gender", gender);
         map.add("country", country);
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
-        ResponseEntity<String> response = restTemplate.postForEntity(uri, request, String.class);
+        ResponseEntity<String> response = restTemplate.exchange(uri, HttpMethod.POST, request, String.class);
         map.add("response", response.getBody());
         return map.toSingleValueMap();
     }

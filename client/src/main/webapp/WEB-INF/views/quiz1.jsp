@@ -40,9 +40,9 @@
                     Wybierz quiz
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/quiz1/Javaobjectoriented" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Java Object Oriented</a>
-                    <a class="dropdown-item" href="/quiz1/Collections" onclick="window.location.href='/quiz1'" id="Collections">Collections</a>
-                    <a class="dropdown-item" href="/quiz1/Databases" onclick="window.location.href='/quiz1'" id="Databases">Databases</a>
+                    <a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Java Object Oriented</a>
+                    <a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Collections">Collections</a>
+                    <a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Databases">Databases</a>
                 </div>
             </li>
             <li>

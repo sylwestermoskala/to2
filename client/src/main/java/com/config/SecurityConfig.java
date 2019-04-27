@@ -53,6 +53,48 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().csrf().disable();
     }
 
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+////        super.configure(http);
+//        http.authorizeRequests()
+//                .antMatchers("/adminn")
+//                .hasRole("ADMIN")
+//                .antMatchers("/log","/userdetail","/quiz1/*")
+//                //.access("hasRole('ROLE_USER')")
+//                .hasRole("USER")
+//                .and()
+//                .formLogin()
+//                .defaultSuccessUrl("/default")
+//                .loginPage("/login")
+//                .loginProcessingUrl("/adminn")
+//                .usernameParameter("email").passwordParameter("password")
+//                /*.loginProcessingUrl("/perform_login")
+//                .defaultSuccessUrl("/",true)
+//                .failureUrl("/login.jsp?error=true")*/
+//                .and().logout().logoutSuccessUrl("/")
+//                .and().csrf().disable();
+//    }
+
+
+//    @Override
+//    protected void configure(final HttpSecurity http) throws Exception {
+//        http
+//                .csrf().disable()
+//                .authorizeRequests()
+//                .antMatchers("/adminn").hasRole("ADMIN")
+//                .antMatchers("/log","/userdetail","/quiz1/*").permitAll()
+//                .anyRequest().authenticated()
+//                .and()
+//                .formLogin()
+//                .loginPage("/login")
+//                //.loginProcessingUrl("/perform_login")
+//                .usernameParameter("email").passwordParameter("password")
+//                //.defaultSuccessUrl("/homepage.html", true)
+//                //.failureUrl("/login.html?error=true")
+//                .and().logout().logoutSuccessUrl("/")
+//                .and().csrf().disable();
+//    }
+
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
         auth.jdbcAuthentication().dataSource(dataSource)

@@ -50,7 +50,7 @@
                     </div>
                     <div align="right">
                         <br>
-                        <a href="admin">admin</a>
+                        <a href="edit-route">admin</a>
                     </div>
                 </form>
             </div>

@@ -12,7 +12,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
 </head>
 <body>
 
@@ -34,9 +33,9 @@
                     Szukaj
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/quiz1/Javaobjectoriented" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Miasto</a>
-                    <a class="dropdown-item" href="/quiz1/Collections" onclick="window.location.href='/quiz1'" id="Collections">Przejazd</a>
-                    <a class="dropdown-item" href="/quiz1/Databases" onclick="window.location.href='/quiz1'" id="Databases">Bus</a>
+                    <%--<a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Java Object Oriented</a>--%>
+                    <a class="dropdown-item" href="/route" onclick="window.location.href='/route'" id="Collections">Przejazd</a>
+                    <a class="dropdown-item" href="/reservation" onclick="window.location.href='/reservation'" id="Databases">Rezerwacje</a>
                 </div>
             </li>
             <li color="white">
