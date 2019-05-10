@@ -22,37 +22,19 @@ public class RoutesService {
         return result;
     }
 
-//    public List<Routes> getRouteByCategory(String category) {
-//        List<Routes> result = new ArrayList<>();
-//        Iterable<Routes> iterable =  routesRepository.findAllByCategory(category);
-//        iterable.forEach(e-> result.add(e));
-//        return result;
-//    }
-
     public Routes findRouteById(int id) {
         return routesRepository.findRouteById(id);
     }
 
-//    public void deleteRouteById(int id) {
-//        routesRepository.deleteById(id);
-//    }
-
-//    public List<Routes> deleteRouteById(int id) {
-//        // TODO Auto-generated method stub
-//
-//        List<Routes> result = new ArrayList<>();
-//        Iterable<Routes> iterable =  routesRepository.findAll();
-//        iterable.forEach(e-> result.add(e));
-//        for(int i=0;i<result.size();i++) {
-//            if(result.get(i).getId()==id) {
-//                result.remove(i);
-//            }
-//        }
-//        return result;
-//    }
-
-        public void deleteRouteById(int id) {
+    public void deleteRouteById(int id) {
         routesRepository.deleteById(id);
     }
 
+    public Routes updateRoute(Routes routes) {
+        return routesRepository.save(routes);
+    }
+
+    public Routes addRoute(Routes routes) {
+        return routesRepository.save(routes);
+    }
 }

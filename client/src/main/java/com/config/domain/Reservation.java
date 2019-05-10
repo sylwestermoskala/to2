@@ -1,12 +1,11 @@
 package com.config.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 public class Reservation {
 
 
-    private Integer id;
-    private int routenumber;
+//    private Integer id;
+    private int id;
+    private String date;
     private int distance;
     private String start_location;
     private String end_location;
@@ -14,20 +13,31 @@ public class Reservation {
     public Reservation() {
     }
 
-    public Reservation(int routenumber, int distance, String start_location, String end_location) {
-        this.routenumber = routenumber;
+    public Reservation(int id, String date, int distance, String start_location, String end_location) {
+        this.id = id;
+        this.date=date;
         this.distance = distance;
         this.start_location = start_location;
         this.end_location = end_location;
     }
 
-    public Reservation(int distance, String start_location, String end_location) {
+    public Reservation(String date, int distance, String start_location, String end_location) {
+        this.date=date;
         this.distance = distance;
         this.start_location = start_location;
         this.end_location = end_location;
     }
 
-    @JsonIgnore
+//    @JsonIgnore
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+
+
     public int getId() {
         return id;
     }
@@ -36,12 +46,12 @@ public class Reservation {
         this.id = id;
     }
 
-    public int getRoutenumber() {
-        return routenumber;
+    public String getDate() {
+        return date;
     }
 
-    public void setRoutenumber(int routenumber) {
-        this.routenumber = routenumber;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public int getDistance() {

@@ -20,6 +20,25 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+        input:focus {
+            outline:none;
+        }
+
+        DIV.table
+        {
+            display:table;
+        }
+        FORM.tr, DIV.tr
+        {
+            display:table-row;
+        }
+        SPAN.td
+        {
+            display:table-cell;
+        }
+    </style>
 </head>
 <body>
 
@@ -34,30 +53,17 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/log" onclick="window.location.href='/log'">HOME</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Twoje dane<span class="sr-only">(current)</span></a>
-            </li>
 
-            <%--<li class="nav-item dropdown">--%>
-                <%--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--%>
-                    <%--Wybierz quiz--%>
-                <%--</a>--%>
-                <%--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">--%>
-                    <%--<a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Java Object Oriented</a>--%>
-                    <%--<a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Collections">Collections</a>--%>
-                    <%--<a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Databases">Databases</a>--%>
-                <%--</div>--%>
-            <%--</li>--%>
             <li>
                 <c:if test="${pageContext.request.userPrincipal.name != null}">
-                    <h2>Welcome : ${pageContext.request.userPrincipal.name}</h2>
+                    <h2 style="color: white">Welcome: ${pageContext.request.userPrincipal.name}</h2>
                 </c:if>
             </li>
         </ul>
     </div>
     <!-- naval with buttons -->
     <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Wyloguj się</button>
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Log out</button>
     </div>
 </nav>
 
@@ -76,9 +82,11 @@
                     <div class="card-block">
 
                         <table id="myTable" class="display datatable table table-stripped" cellspacing="0" width="100%">
+
                             <thead>
                             <tr>
                                 <th>Route Number</th>
+                                <th>Date</th>
                                 <th>Distance</th>
                                 <th>Start Location</th>
                                 <th>End Location</th>
@@ -86,35 +94,26 @@
                             </tr>
                             </thead>
 
-                            <tbody>
+                            <tbody id="myTb">
+
+
                     <c:forEach items="${routes}" var="route">
-                        <tr id="myTableRow">
-                            <td>${route.id}</td>
-                            <td>${route.distance}</td>
-                            <td>${route.start_location}</td>
-                            <td>${route.end_location}</td>
-                            <%--<td>--%>
-                                <%--<a href="/delete/${route.id}">--%>
-                                <%--&lt;%&ndash;&lt;%&ndash;<button type="button" class="btn btn-success" onclick="tgPanel(this);">Reserve</button>&ndash;%&gt;&ndash;%&gt;--%>
-                                    <%--&lt;%&ndash;<button type="button" class="btn btn-success" onclick="post('')">Reserve</button>&ndash;%&gt;--%>
-                                    <%--<spring:url value="/delete/${route.id}" var="deleteUrl" />--%>
-                                    <%--<button class="btn btn-danger"--%>
-                                            <%--onclick="this.disabled=true;post('${deleteUrl}')">Delete</button>--%>
-                                <%--</a>--%>
-                                    <%--<spring:url value="/delete/${route.id}" var="deleteUrl" />--%>
-                                    <%--<button class="btn btn-danger"--%>
-                                            <%--onclick="this.disabled=true">Delete</button>--%>
+                    <form action="/addReservation" method="post" commandName="reservation">
+                        <tr id="myTableRow" style="">
+                            <td><input type="number" min="0" step="1" name="id" style="border:none" readonly="readonly" value="${route.id}"/></td>
+                            <td><input type="text" name="date" style="border:none" readonly="readonly" value="${route.date}"/></td>
+                            <td><input type="number" min="0" step="1" name="distance" style="border:none" readonly="readonly" value="${route.distance}"/></td>
+                            <td><input type="text" name="start_location" style="border:none" readonly="readonly" value="${route.start_location}"/></td>
+                            <td><input type="text" name="end_location" style="border:none" readonly="readonly" value="${route.end_location}"/></td>
+                            <td><input type="submit" value="Reservation"/></td>
 
-
-                            <td><form action="/route/reservation"  method="post"><input type="submit" value="Reservation"/></form>
-                            <spring:url value="/route/reservation" var="userUrl"/></td>
-
-                                <%--delete/////////////////////////////////////////////////////////////////////////--%>
-                            <%--<td><form action="/delete/${route.id}"  method="post"><input type="submit" value="Delete"/></form>--%>
-                            <%--<spring:url value="/delete/${route.id}" var="deleteUrl"/></td>--%>
-                            <%--<button class="btn btn-danger" onclick="removeUser('${deleteUrl}')">Delete</button></td>--%>
                         </tr>
+
+                    </form>
+
                     </c:forEach>
+
+
                             </tbody>
                         </table>
 
@@ -127,50 +126,39 @@
 <!-- /PAGE CONTENT -->
 
 
-<div align="center"><a href="/log">Powrot</a></div>
+<div align="center"><a href="/log">Back</a></div>
+
+
+
+<script>
+
+    var $rows = $('#myTb tr');
+
+    $('#myInput').keyup(function() {
+        var searchText = $(this).val();
+        $rows
+            .show()
+            .filter(function() {
+                var $inputs = $(this).find("input");
+                var found = searchText.length == 0; // for empty search, show all rows
+                for (var i=0; i < $inputs.length && !found; i++) {
+                    var text = $inputs.eq(i).val().replace(/\s+/g, ' ');
+                    found = text.length > 0 && text.indexOf(searchText) >= 0;
+                }
+                return !found;
+            })
+            .hide();
+    });
+
+</script>
+
+
 
 </body>
 </html>
 
 
-<script>
 
-    $(document).ready(function(){
-        $("#myInput").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#myTable tr").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-        });
-    });
-
-    var tr;
-
-    function tgPanel(button) {
-        tr = button.parentElement.parentElement;
-        console.log(tr);
-    }
-
-    // delete the user from the database
-    function removeUser(deleteURL) {
-
-        $.ajax({
-
-            type: "DELETE",
-            url: deleteURL,
-
-            success: function () {
-                // window.location.reload();
-                $('#myTableRow').remove();
-            },
-
-            failure: function (errMsg) {
-                console.log(errMsg.toString())
-            }
-        });
-    }
-
-</script>
 
 
 

@@ -39,9 +39,6 @@ public class MyController {
     private UserService userService;
 
     @Autowired
-    private QuestionsService questionsService;
-
-    @Autowired
     private RoutesService routesService;
 
     @Autowired
@@ -69,46 +66,6 @@ public class MyController {
         return "login";
     }
 
-    @RequestMapping(value = "/default", method = RequestMethod.GET)
-    public String loginPage(HttpServletRequest request) {
-        if (request.isUserInRole("ROLE_ADMIN")) {
-            return "redirect:/adminn";
-        }
-        return "login";
-    }
-
-
-
-    @RequestMapping(value = "/adminPage", method = RequestMethod.POST)
-    public String adminPage(@ModelAttribute("email") String email,
-                           @ModelAttribute("password") String password,
-                           ModelMap modelMap) { // bo z posta
-
-//        if (userService.emailExist(email)) {
-//            return "redirect:/registrationPage";
-//        }
-
-        String sqlUser = String.format("INSERT INTO users(email,password,enabled) VALUES ('%s','%s',true)", email, password);
-        jdbcTemplate.execute(sqlUser);
-        String sqlRole = String.format("INSERT INTO user_roles(email,role) VALUES ('%s','%s')", email, "ROLE_USER");
-        jdbcTemplate.execute(sqlRole);
-//        List<User> userList = jdbcTemplate.query("select * from users", new BeanPropertyRowMapper<>(User.class));
-//        modelMap.addAttribute("users",userList);
-
-        return "login";
-    }
-
-
-
-    @RequestMapping(value = "/admin", method = RequestMethod.GET)
-    public String admin() {
-        return "admin";
-    }
-
-    @RequestMapping(value = "/adminn", method = RequestMethod.GET)
-    public String adminn() {
-        return "adminn";
-    }
 
     @RequestMapping(value = "/log")
     public String logPage() {
@@ -121,33 +78,31 @@ public class MyController {
         return "registrationPage";
     }
 
-
-    @RequestMapping(value = "/correct/answer")
-    public ResponseEntity<Boolean> correctAnswer (@RequestParam(name = "id") Integer answerId,
-                                         @RequestParam(name = "answer") String choosenAnswer) {
-        String sql = String.format("SELECT answer from questions where id=%d", answerId);
-        String result =  jdbcTemplate.queryForObject(sql, String.class);
-        if(result.equals(choosenAnswer))
-            return new ResponseEntity<>(true, HttpStatus.OK);
-        else
-            return new ResponseEntity<>(false,HttpStatus.OK);
+    @RequestMapping(value = "/adminPage", method = RequestMethod.GET)
+    public String adminPage(ModelMap modelMap) {
+        try {
+            modelMap.addAttribute("routes", routesService.getRoute());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "adminPage";
     }
+
+    @RequestMapping(value = "/accessDenied")
+    public String accessDenied() {
+        return "accessDenied";
+    }
+
 
     @RequestMapping(value = "/adduser", method = RequestMethod.POST)
     public String addusers(@ModelAttribute("email") String email,
                            @ModelAttribute("password") String password,
                            ModelMap modelMap){ // bo z posta
 
-//        if (userService.emailExist(email)) {
-//            return "redirect:/registrationPage";
-//        }
-
         String sqlUser = String.format("INSERT INTO users(email,password,enabled) VALUES ('%s','%s',true)", email, password);
         jdbcTemplate.execute(sqlUser);
         String sqlRole = String.format("INSERT INTO user_roles(email,role) VALUES ('%s','%s')",email, "ROLE_USER");
         jdbcTemplate.execute(sqlRole);
-//        List<User> userList = jdbcTemplate.query("select * from users", new BeanPropertyRowMapper<>(User.class));
-//        modelMap.addAttribute("users",userList);
 
         return "login";
     }
@@ -158,7 +113,6 @@ public class MyController {
     public String addActor(@ModelAttribute("gender") String gender,
                            @ModelAttribute("country") String country,
                            @ModelAttribute("email") String email,
-                           //String email,
                            ModelMap modelMap) {
         try {
             modelMap.addAllAttributes(usersdetailsService.addUserDetails(email, gender, country));
@@ -167,33 +121,6 @@ public class MyController {
         }
         return "redirect:/userdetail";
     }
-
-
-
-    ////////////////////
-
-    @RequestMapping(value = "/quiz1")
-    public String quiz(ModelMap modelMap){
-        try {
-            modelMap.addAttribute("questions",questionsService.getQuestions());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "quiz1";
-    }
-
-    @RequestMapping(value = "/quiz1/{category}")
-    public String quiz(ModelMap modelMap, @ModelAttribute("category") String category) {
-        try {
-            modelMap.addAttribute("questions", questionsService.getQuestionsByCategory(category));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "quiz1";
-    }
-
-
-    /////////////////////////
 
     @RequestMapping(value = "/route", method = RequestMethod.GET)
     public String route(ModelMap modelMap){
@@ -204,40 +131,6 @@ public class MyController {
         }
         return "/route";
     }
-    ////////////////////
-
-//    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
-//    public String delete(@PathVariable String id, ModelMap modelMap){
-//        try {
-//            modelMap.addAttribute("routes", routesService.deleteRouteById(id));
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return "redirect:/route";
-//    }
-
-    ///true
-//    @RequestMapping(value="/delete/{id}")
-//    public String removeEmployee(@PathVariable("id") Integer id) {
-//        try {
-//            this.routesService.delete(id);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return "redirect:/route";
-//    }
-
-//    @DeleteMapping("/delete/{id}")
-//    ResponseEntity<?> deleteEmployee(@PathVariable Integer id) {
-//
-//        try {
-//            routesService.delete(id);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//        return ResponseEntity.noContent().build();
-//    }
 
     // delete user
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
@@ -255,72 +148,87 @@ public class MyController {
         redirectAttributes.addFlashAttribute("css", "success");
         redirectAttributes.addFlashAttribute("msg", "User is deleted!");
 
-        return "redirect:/route";
+        return "redirect:/adminPage";
 
     }
 
-//    @RequestMapping(method = RequestMethod.DELETE, value="/delete/{id}")
-//    @ResponseBody
-//    public void deleteStudent(@PathVariable("id") String id) {
-//        System.out.println("In deleteStudentRecord");
-//        try {
-//            routesService.delete(id);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
+    @RequestMapping(value = "/reservation", method = RequestMethod.GET)
+    public String reservation(ModelMap modelMap){
+        try {
+            modelMap.addAttribute("responseReservation", reservationService.getReservations());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "/reservation";
+    }
 
 
-//    @DeleteMapping(value = "/delete/{id}")
-//    @RequestMapping(value = "/delete/{id}",method=RequestMethod.DELETE)
-//    @ResponseStatus(value = HttpStatus.OK)
-//    public @ResponseBody String deleteUser(@PathVariable("id") Integer idx, final RedirectAttributes redirectAttributes) {
-//
-//        //logger.debug("Delete user with Id {}", idx);
-//
-//        redirectAttributes.addFlashAttribute("css", "Success");
-//        redirectAttributes.addFlashAttribute("msg", "The user is deleted");
-//
-//        // delete the user
-//        try {
-//            routesService.delete(idx);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return "redirect:/route";
-//    }
+    //show update form
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
+    public String showUpdateUserForm(@PathVariable("id") int id, Model model) {
+
+        logger.debug("showUpdateUserForm() : {}", id);
+
+        try {
+            model.addAttribute("xxx", routesService.getRouteById(id));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return "/routeForm";
+    }
 
 
+    @RequestMapping(value = "/updateRoute", method = RequestMethod.POST)
+    public String updateRoute(
+            @ModelAttribute("id") String id,
+            @ModelAttribute("date") String date,
+            @ModelAttribute("distance") String distance,
+            @ModelAttribute("start_location") String start_location,
+            @ModelAttribute("end_location") String end_location,
+            //String email,
+            ModelMap modelMap) {
+        try {
+            modelMap.addAllAttributes(routesService.routeUpdate(id, date, distance, start_location, end_location));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        return "redirect:/adminPage";
+    }
 
-    //RESERVATION//
-//    @RequestMapping(value = "/reservation", method = RequestMethod.GET)
-//    public String resPage() {
-//        return "reservation";
-//    }
-//
-//    @RequestMapping(value = "/route/reservation", method = RequestMethod.POST)
-//    public String resPage(
-//            @ModelAttribute("route_number") int route_number,
-//                           @ModelAttribute("distance") int distance,
-//                           @ModelAttribute("start_location") String start_location,
-//                           @ModelAttribute("end_location") String end_location,
-//                           //String email,
-//                           ModelMap modelMap) {
-//        try {
-//            modelMap.addAllAttributes(reservationService.addReservation(route_number, distance, start_location, end_location));
-//        } catch (URISyntaxException e) {
-//            e.printStackTrace();
-//        }
-//        return "/reservation";
-//    }
+    @RequestMapping(value = "/routeForm")
+    public String routeFormPage() {
+        return "routeForm";
+    }
 
+    @RequestMapping(value = "/addRoute", method = RequestMethod.GET)
+    public String addFormPage() {
+        return "addRoute";
+    }
 
-    @RequestMapping(value = "/route/reservation", method = RequestMethod.POST)
-    public ModelAndView addUser(@ModelAttribute Reservation userTO) {
+    @RequestMapping(value = "/addRoute", method = RequestMethod.POST)
+    public String addRoute(
+            @ModelAttribute("id") String id,
+            @ModelAttribute("date") String date,
+            @ModelAttribute("distance") String distance,
+            @ModelAttribute("start_location") String start_location,
+            @ModelAttribute("end_location") String end_location,
+            //String email,
+            ModelMap modelMap) {
+        try {
+            modelMap.addAllAttributes(routesService.routeAdd(id, date, distance, start_location, end_location));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        return "redirect:/adminPage";
+    }
+
+    @RequestMapping(value = "/addReservation", method = RequestMethod.POST)
+    public ModelAndView addUser(@ModelAttribute("employee") Reservation reservation) {
 
         ModelAndView model = new ModelAndView("redirect:/route");
         try {
-            reservationService.addReservation(userTO);
+            reservationService.addReservation(reservation);
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
@@ -328,35 +236,5 @@ public class MyController {
         String message = "User registration successful!";
         model.addObject("message", message);
         return model;
-    }
-
-//    @RequestMapping(value = "/route/reservation", method = RequestMethod.POST)
-//    public String resPage(
-//            @ModelAttribute("routenumber") String routenumber,
-//            @ModelAttribute("distance") String distance,
-//            @ModelAttribute("start_location") String start_location,
-//            @ModelAttribute("end_location") String end_location,
-//            //String email,
-//            ModelMap modelMap) {
-//        try {
-//            modelMap.addAllAttributes(reservationService.addReservation(routenumber, distance, start_location, end_location));
-//        } catch (URISyntaxException e) {
-//            e.printStackTrace();
-//        }
-//        return "redirect:/route";
-//    }
-
-
-
-    ////////good/////////////////////////
-    @GetMapping(value = "/reservation")
-    public String detailReser(HttpServletRequest request,
-                         ModelMap modelMap){
-        try {
-            modelMap.addAllAttributes(reservationService.getDetailsReser(request.getUserPrincipal().getName()));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "reservation";
     }
 }

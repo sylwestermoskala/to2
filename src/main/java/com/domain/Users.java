@@ -21,12 +21,21 @@ public class Users {
         this.email = username;
     }
 
-    public void setEmail(String username) {
-        this.email = username;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getEmail() {
         return email;
+    }
+
+    public void setEmail(String username) {
+        this.email = username;
     }
 
     public String getPassword() {
@@ -35,13 +44,5 @@ public class Users {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 }

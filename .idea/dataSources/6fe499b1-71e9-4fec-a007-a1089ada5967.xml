@@ -1145,10 +1145,7 @@
     <table id="291" parent="4" name="route_location">
       <Engine>MyISAM</Engine>
     </table>
-    <table id="292" parent="4" name="routes">
-      <Engine>MyISAM</Engine>
-      <Collation>latin1_swedish_ci</Collation>
-    </table>
+    <table id="292" parent="4" name="routes"/>
     <table id="293" parent="4" name="trip">
       <Engine>MyISAM</Engine>
     </table>
@@ -1287,15 +1284,13 @@
     </key>
     <column id="322" parent="289" name="id">
       <Position>1</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="323" parent="289" name="route_number">
-      <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="289" name="date">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="324" parent="289" name="distance">
@@ -1305,306 +1300,296 @@
     </column>
     <column id="325" parent="289" name="start_location">
       <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="326" parent="289" name="end_location">
       <Position>5</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="289" name="routenumber">
-      <Position>6</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="328" parent="289" name="id">
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="329" parent="289" name="PRIMARY">
+    <key id="327" parent="289" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>route_number</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="330" parent="289" name="id">
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>id</UnderlyingIndexName>
-    </key>
-    <column id="331" parent="290" name="id">
+    <column id="328" parent="290" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="332" parent="290" name="distance">
+    <column id="329" parent="290" name="distance">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="333" parent="290" name="end_location">
+    <column id="330" parent="290" name="end_location">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="290" name="start_location">
+    <column id="331" parent="290" name="start_location">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="335" parent="290" name="PRIMARY">
+    <key id="332" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="336" parent="291" name="route_id">
+    <column id="333" parent="291" name="route_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="337" parent="291" name="location_id">
+    <column id="334" parent="291" name="location_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="338" parent="291" name="FK3ah0cmivmxb2ayuvb48si01xw">
+    <index id="335" parent="291" name="FK3ah0cmivmxb2ayuvb48si01xw">
       <ColNames>route_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="339" parent="291" name="FK3tcq1ms0bhd13xj5xpp47i00s">
+    <index id="336" parent="291" name="FK3tcq1ms0bhd13xj5xpp47i00s">
       <ColNames>location_id</ColNames>
       <Type>btree</Type>
     </index>
-    <column id="340" parent="292" name="id">
+    <column id="337" parent="292" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="292" name="distance">
+    <column id="338" parent="292" name="date">
       <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="339" parent="292" name="distance">
+      <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="292" name="start_location">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="343" parent="292" name="end_location">
+    <column id="340" parent="292" name="start_location">
       <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="344" parent="292" name="PRIMARY">
+    <column id="341" parent="292" name="end_location">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="342" parent="292" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="345" parent="293" name="trip_id">
+    <column id="343" parent="293" name="trip_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="346" parent="293" name="arrival_date">
+    <column id="344" parent="293" name="arrival_date">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="293" name="arrival_time">
+    <column id="345" parent="293" name="arrival_time">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="293" name="bus_reg_number">
+    <column id="346" parent="293" name="bus_reg_number">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="293" name="departure_date">
+    <column id="347" parent="293" name="departure_date">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="293" name="departure_time">
+    <column id="348" parent="293" name="departure_time">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="293" name="duration">
+    <column id="349" parent="293" name="duration">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="293" name="price_per_seat">
+    <column id="350" parent="293" name="price_per_seat">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="293" name="route_number">
+    <column id="351" parent="293" name="route_number">
       <Position>9</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="354" parent="293" name="bus_id">
+    <column id="352" parent="293" name="bus_id">
       <Position>10</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="355" parent="293" name="route_id">
+    <column id="353" parent="293" name="route_id">
       <Position>11</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="356" parent="293" name="FKptvi61dd1hao1yig3in0gvcjs">
+    <index id="354" parent="293" name="FKptvi61dd1hao1yig3in0gvcjs">
       <ColNames>bus_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="357" parent="293" name="FKeva4adpyk6glllffnw5ypj20j">
+    <index id="355" parent="293" name="FKeva4adpyk6glllffnw5ypj20j">
       <ColNames>route_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="358" parent="293" name="PRIMARY">
+    <key id="356" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>trip_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="359" parent="294" name="user_role_id">
+    <column id="357" parent="294" name="user_role_id">
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="294" name="email">
+    <column id="358" parent="294" name="email">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="294" name="role">
+    <column id="359" parent="294" name="role">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="362" parent="294" name="user_role_id">
+    <index id="360" parent="294" name="user_role_id">
       <ColNames>user_role_id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="363" parent="294" name="email">
+    <index id="361" parent="294" name="email">
       <ColNames>email
 role</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="364" parent="294" name="PRIMARY">
+    <key id="362" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_role_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="365" parent="294" name="user_role_id">
+    <key id="363" parent="294" name="user_role_id">
       <ColNames>user_role_id</ColNames>
       <UnderlyingIndexName>user_role_id</UnderlyingIndexName>
     </key>
-    <key id="366" parent="294" name="email">
+    <key id="364" parent="294" name="email">
       <ColNames>email
 role</ColNames>
       <UnderlyingIndexName>email</UnderlyingIndexName>
     </key>
-    <foreign-key id="367" parent="294" name="user_roles_ibfk_1">
+    <foreign-key id="365" parent="294" name="user_roles_ibfk_1">
       <ColNames>email</ColNames>
       <RefSchemaName>bus_reservation</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>email</RefColNames>
     </foreign-key>
-    <column id="368" parent="295" name="id">
+    <column id="366" parent="295" name="id">
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="369" parent="295" name="email">
+    <column id="367" parent="295" name="email">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="370" parent="295" name="password">
+    <column id="368" parent="295" name="password">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="371" parent="295" name="enabled">
+    <column id="369" parent="295" name="enabled">
       <Position>4</Position>
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="372" parent="295" name="id">
+    <index id="370" parent="295" name="id">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="373" parent="295" name="PRIMARY">
+    <key id="371" parent="295" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>email</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="374" parent="295" name="id">
+    <key id="372" parent="295" name="id">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>
-    <column id="375" parent="296" name="id">
+    <column id="373" parent="296" name="id">
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="376" parent="296" name="email">
+    <column id="374" parent="296" name="email">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="377" parent="296" name="country">
+    <column id="375" parent="296" name="country">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="378" parent="296" name="gender">
+    <column id="376" parent="296" name="gender">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="379" parent="296" name="id">
+    <index id="377" parent="296" name="id">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="380" parent="296" name="PRIMARY">
+    <key id="378" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>email</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="381" parent="296" name="id">
+    <key id="379" parent="296" name="id">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>
-    <foreign-key id="382" parent="296" name="usersdetails_ibfk_1">
+    <foreign-key id="380" parent="296" name="usersdetails_ibfk_1">
       <ColNames>email</ColNames>
       <RefSchemaName>bus_reservation</RefSchemaName>
       <RefTableName>users</RefTableName>

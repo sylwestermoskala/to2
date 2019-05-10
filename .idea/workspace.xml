@@ -11,28 +11,61 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fe499b1-71e9-4fec-a007-a1089ada5967.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6fe499b1-71e9-4fec-a007-a1089ada5967.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/resources/main/questions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/resources/main/quiz_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/resources/main/reservation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/resources/main/reservation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/resources/main/routes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/resources/main/routes.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Questions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/QuestionsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/questions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/quiz_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/reservation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/reservation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/routes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/routes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route2.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/CRC_draft.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Questions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/QuestionsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/QuestionsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -152,77 +185,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1556340935774" expanded="true" signature="7439:7740" ph="..." />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="142" column="38" lean-forward="true" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="38" />
+            <state relative-caret-position="1478">
+              <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="81" selection-start-line="81" selection-end-line="91" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/routes.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -230,26 +208,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/reservation.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="239">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/routes.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="18">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp">
+        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
+            <state relative-caret-position="1">
+              <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routeForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/addRoute.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/UserDetailTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ReservationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -259,8 +285,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="SQL Script" />
         <option value="Class" />
       </list>
@@ -270,6 +296,12 @@
     <findStrings>
       <find>s</find>
       <find>question</find>
+      <find>save</find>
+      <find>put</find>
+      <find>response</find>
+      <find>myInput</find>
+      <find>number</find>
+      <find>keyup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,65 +310,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ServerApplication.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/config/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/webapp-context.xml" />
-        <option value="$PROJECT_DIR$/gradlew" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/client/settings.gradle" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/registrationPage.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/domain/Users.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/QuestionsService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/admin.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/route.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/RouteService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/RouteService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/domain/Route.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Route.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/repository/RouteRepository.java" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routes.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/navbar.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Show.java" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/navigator-bar.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/tr1.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/edit-route.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" />
         <option value="$PROJECT_DIR$/client/build.gradle" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminn.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/accessDenied.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/MyController2.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/MyController3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MyController2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MyController3.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/database.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/user_roles.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/usersdetails.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/users.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/drop.sql" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/reservation.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/UserDetailTest.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domain/Users.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/routes.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/Reservation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/ReservationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MyController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/routes.sql" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/reservation.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routeForm.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/addRoute.jsp" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="762" />
-    <option name="y" value="6" />
+    <option name="x" value="501" />
     <option name="width" value="978" />
-    <option name="height" value="1089" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -346,7 +384,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,6 +513,11 @@
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
               <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -542,13 +584,28 @@
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
               <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -560,10 +617,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556340966521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557526673122" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -581,11 +639,11 @@
       <recent name="com.config.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\documentation" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\static\images" />
       <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\resources" />
       <recent name="C:\Users\sylwe\Desktop\appTO2\abc\documentation" />
-      <recent name="C:\Users\sylwe\Desktop\abc\client\src\main\webapp" />
-      <recent name="C:\Users\sylwe\Desktop\abc\client\src\main\java" />
-      <recent name="C:\Users\sylwe\Desktop\abc\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -600,7 +658,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.client">
+  <component name="RunManager" selected="JUnit.UserDetailTest.testUserDetails2">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -612,80 +670,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="abc [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="abc [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="TomcatRun" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="abc [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="abc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="client" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -705,6 +689,56 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="UserDetailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.UserDetailTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetailTest.testUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.UserDetailTest" />
+      <option name="METHOD_NAME" value="testUserDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetailTest.testUserDetails2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abc_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.UserDetailTest" />
+      <option name="METHOD_NAME" value="testUserDetails2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -741,18 +775,16 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.client" />
-      <item itemvalue="Gradle.abc" />
-      <item itemvalue="Gradle.abc [build]" />
-      <item itemvalue="Gradle.abc [clean]" />
-      <item itemvalue="Gradle.abc [build] (1)" />
+      <item itemvalue="JUnit.UserDetailTest" />
       <item itemvalue="Spring Boot.ServerApplication" />
+      <item itemvalue="JUnit.UserDetailTest.testUserDetails" />
+      <item itemvalue="JUnit.UserDetailTest.testUserDetails2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.abc [build] (1)" />
-        <item itemvalue="Gradle.abc [build]" />
-        <item itemvalue="Gradle.abc" />
-        <item itemvalue="Gradle.abc [clean]" />
+        <item itemvalue="JUnit.UserDetailTest.testUserDetails2" />
+        <item itemvalue="JUnit.UserDetailTest.testUserDetails" />
+        <item itemvalue="JUnit.UserDetailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -793,18 +825,61 @@
       <workItem from="1555658250312" duration="10000" />
       <workItem from="1555935488416" duration="48587000" />
       <workItem from="1556260399287" duration="12013000" />
-      <workItem from="1556295841694" duration="14427000" />
+      <workItem from="1556295841694" duration="15008000" />
+      <workItem from="1556375823170" duration="10546000" />
+      <workItem from="1556571403270" duration="25139000" />
+      <workItem from="1556876151828" duration="34558000" />
+      <workItem from="1556980190967" duration="6732000" />
+      <workItem from="1556996386129" duration="6641000" />
+      <workItem from="1557068183856" duration="14245000" />
+      <workItem from="1557263562172" duration="4426000" />
+      <workItem from="1557346136306" duration="7534000" />
+      <workItem from="1557441970829" duration="1255000" />
+      <workItem from="1557500361281" duration="4553000" />
+      <workItem from="1557507016076" duration="5755000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserDetailTest - 2019.05.09 at 20h 05m 43s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest_testRetrieveStudentCourse - 2019.05.09 at 20h 10m 16s.xml">
+      <configuration name="UserDetailTest.testRetrieveStudentCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 00h 55m 15s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 00h 55m 37s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 00h 56m 10s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 01h 00m 18s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 01h 01m 37s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 01h 01m 57s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 01h 03m 10s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.10 at 01h 03m 20s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168505000" />
+    <option name="totallyTimeSpent" value="290470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31902835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38218623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -812,9 +887,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32962963" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.68333334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.14444445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.6888889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -834,15 +910,15 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.2437247" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.026720649" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.2437247" />
+      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.026720649" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34736842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3465587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -852,15 +928,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.68333334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16296296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.46851853" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.35740742" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.36296296" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.30185184" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.18888889" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -872,10 +948,10 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.2437247" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.2437247" />
+      <window_info anchor="right" id="Database" order="9" weight="0.026720649" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
     </layout-to-restore>
@@ -884,149 +960,84 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/b891c5162908b5d092240c24df1b5e972a17768d/spring-context-4.3.10.RELEASE-sources.jar!/org/springframework/ui/ModelMap.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController3.java" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/database.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1172">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="630">
+          <caret line="35" selection-start-line="35" selection-end-line="46" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/build.gradle">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/user_roles.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="46" selection-end-column="42" />
+        <state>
+          <caret selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/accessDenied.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/SpringSecurityInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
+        <state relative-caret-position="-108" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/registrationPage.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="291">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/webapp-context.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="46" column="102" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="102" />
+        <state relative-caret-position="15">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="39" selection-start-line="39" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <marker date="1556214007542" expanded="true" signature="2376:3295" ph="..." />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/QuestionsRepository.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/d729b258165a2fd9b5d6156c05c4c4f7ca053117/jsonassert-1.5.0-sources.jar!/org/skyscreamer/jsonassert/JSONAssert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="5886">
+          <caret line="342" column="64" selection-start-line="342" selection-start-column="64" selection-end-line="342" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="828">
+          <caret line="46" column="126" selection-start-line="46" selection-start-column="126" selection-end-line="46" selection-end-column="126" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/Questions.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/usersdetails.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <caret selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Questions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/webapp-context.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/questions.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/quiz_database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Usersdetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.3.RELEASE/2fead3014c5e4e0cb750dd2939770d09fb2a21e4/spring-data-commons-2.1.3.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/Usersdetails.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1035,158 +1046,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/QuestionsService.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="52" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MainConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="486">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="395" column="35" selection-start-line="395" selection-start-column="35" selection-end-line="395" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/EmailExistsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/security/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UsersdetailsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Usersdetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/RoutesService.java">
+    <entry file="file://$PROJECT_DIR$/documentation/CRC_draft.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/crc.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/Narzedzia_harmonogram.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/UC diagram.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/drop.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-          </folding>
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/users.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Routes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="162">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="245">
+          <caret line="103" column="61" selection-start-line="103" selection-start-column="61" selection-end-line="103" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ReservationService.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        <state relative-caret-position="144">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="290">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/QuestionsService.java">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="-1042">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1195,95 +1180,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="103" column="52" lean-forward="true" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="90" column="52" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="85" column="40" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/reservation.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/routes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="81" selection-start-line="81" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
+        <state relative-caret-position="90">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/RoutesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1556340935774" expanded="true" signature="7439:7740" ph="..." />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UsersdetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="142" column="38" lean-forward="true" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="38" />
+        <state relative-caret-position="1478">
+          <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/reservation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/routes.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routeForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/addRoute.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/UserDetailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

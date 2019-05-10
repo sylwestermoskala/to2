@@ -27,25 +27,24 @@
                 <a class="nav-link" href="/" onclick="window.location.href='/log'">HOME</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Twoje dane</a>
+                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Your data<span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Szukaj
+                    Search
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/quiz1/Javaobjectoriented" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Miasto</a>
-                    <a class="dropdown-item" href="/quiz1/Collections" onclick="window.location.href='/quiz1'" id="Collections">Przejazd</a>
-                    <a class="dropdown-item" href="/quiz1/Databases" onclick="window.location.href='/quiz1'" id="Databases">Bus</a>
+                    <a class="dropdown-item" href="/route" onclick="window.location.href='/route'" id="Trips">Trips</a>
+                    <a class="dropdown-item" href="/reservation" onclick="window.location.href='/reservation'" id="Reservations">Reservations</a>
                 </div>
             </li>
         </ul>
     </div>
     <!-- naval with buttons -->
     <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary" name="login" onclick="window.location.href='/log','/adminn'">Zaloguj się</button>
-            <button type="button" class="btn btn-secondary" name="signup" onclick="window.location.href='/registrationPage'">Stwórz konto</button>
+            <button type="button" class="btn btn-secondary" name="login" onclick="window.location.href='/log'">Sign in</button>
+            <button type="button" class="btn btn-secondary" name="signup" onclick="window.location.href='/registrationPage'">Create an account</button>
     </div>
 </nav>
 

@@ -12,6 +12,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+        .aaa:link, .aaa:visited, .aaa:hover
+             {  text-decoration: none;
+                color:#FFFFFF;
+                text-align:center;
+             }
+
+        #id_admin
+        {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,17 +37,16 @@
                 <a class="nav-link" href="/log" onclick="window.location.href='/log'">HOME</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Twoje dane<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Your data<span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Szukaj
+                    Search
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <%--<a class="dropdown-item" href="/quiz1" onclick="window.location.href='/quiz1'" id="Java Object Oriented">Java Object Oriented</a>--%>
-                    <a class="dropdown-item" href="/route" onclick="window.location.href='/route'" id="Collections">Przejazd</a>
-                    <a class="dropdown-item" href="/reservation" onclick="window.location.href='/reservation'" id="Databases">Rezerwacje</a>
+                    <a class="dropdown-item" href="/route" onclick="window.location.href='/route'" id="Trips">Trips</a>
+                    <a class="dropdown-item" href="/reservation" onclick="window.location.href='/reservation'" id="Reservations">Reservations</a>
                 </div>
             </li>
             <li color="white">
@@ -46,9 +57,13 @@
         </ul>
     </div>
 
+    <div id="id_admin" class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-light" onclick="window.location.href='/adminPage'">Admin</button>
+    </div>
+
     <!-- naval with buttons -->
     <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Wyloguj się</button>
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Log out</button>
     </div>
 </nav>
 

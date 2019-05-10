@@ -6,6 +6,7 @@ import java.sql.Date;
 public class Routes{
 
     private int id;
+    private String date;
     private int distance;
     private String start_location;
     private String end_location;
@@ -13,7 +14,16 @@ public class Routes{
     public Routes() {
     }
 
-    public Routes(int distance, String start_location, String end_location) {
+    public Routes(String date, int distance, String start_location, String end_location) {
+        this.date=date;
+        this.distance = distance;
+        this.start_location = start_location;
+        this.end_location = end_location;
+    }
+
+    public Routes(int id, String date, int distance, String start_location, String end_location) {
+        this.id = id;
+        this.date=date;
         this.distance = distance;
         this.start_location = start_location;
         this.end_location = end_location;
@@ -25,6 +35,14 @@ public class Routes{
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public int getDistance() {

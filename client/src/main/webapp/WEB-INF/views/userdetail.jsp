@@ -24,23 +24,10 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/log" onclick="window.location.href='/log'">HOME</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/userdetail" onclick="window.location.href='/userdetail'">Twoje dane<span class="sr-only">(current)</span></a>
-            </li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/quiz1" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Szukaj
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/quiz1/Javaobjectoriented" onclick="window.location.href='/quiz1/Javaobjectoriented'" id="Java Object Oriented">Miasto</a>
-                    <a class="dropdown-item" href="/quiz1/Collections" onclick="window.location.href='/quiz1/Collections'" id="Collections">Przejazd</a>
-                    <a class="dropdown-item" href="/quiz1/Databases" onclick="window.location.href='/quiz1/Databases'" id="Databases">Bus</a>
-                </div>
-            </li>
             <li>
                 <c:if test="${pageContext.request.userPrincipal.name != null}">
-                    <h2>Welcome : ${pageContext.request.userPrincipal.name}</h2>
+                    <h2>Welcome: ${pageContext.request.userPrincipal.name}</h2>
                 </c:if>
             </li>
         </ul>
@@ -48,7 +35,7 @@
 
     <!-- naval with buttons -->
     <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Wyloguj się</button>
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='/logout'">Log out</button>
     </div>
 </nav>
 
@@ -86,7 +73,7 @@
         <input type="submit" value="add">
     </form>
     <br><br>
-    <a href="/log">home page</a>
+    <a href="/log">Back</a>
 
 </div>
 

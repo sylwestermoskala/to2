@@ -48,10 +48,6 @@
                         <p><h2>Do not have a account?</h2></p>
                         <a href="registrationPage">SIGN UP</a>
                     </div>
-                    <div align="right">
-                        <br>
-                        <a href="edit-route">admin</a>
-                    </div>
                 </form>
             </div>
         </div>
