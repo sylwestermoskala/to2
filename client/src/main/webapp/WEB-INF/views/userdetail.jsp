@@ -27,7 +27,7 @@
 
             <li>
                 <c:if test="${pageContext.request.userPrincipal.name != null}">
-                    <h2>Welcome: ${pageContext.request.userPrincipal.name}</h2>
+                    <h2 style="color:#FFFFFF">Welcome: ${pageContext.request.userPrincipal.name}</h2>
                 </c:if>
             </li>
         </ul>
