@@ -4,68 +4,13 @@
     <list default="true" id="ff462c9b-d3d7-49b6-8dde-ebab3156cbb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fe499b1-71e9-4fec-a007-a1089ada5967.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6fe499b1-71e9-4fec-a007-a1089ada5967.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/resources/main/questions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/resources/main/quiz_database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/resources/main/reservation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/resources/main/reservation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/resources/main/routes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/resources/main/routes.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Questions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/domain/Routes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/QuestionsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/questions.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/quiz_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/reservation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/reservation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/routes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/routes.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminn.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/log.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/navbar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/reservation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/route2.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/CRC_draft.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Questions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Routes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/QuestionsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/RoutesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/repository/UsersdetailsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/QuestionsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/RoutesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -182,22 +127,26 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="abc" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/ReservationRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/documentation/Narzedzia_harmonogram.JPG">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController.java">
+        <entry file="file://$PROJECT_DIR$/documentation/UC diagram.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1478">
-              <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+            <state relative-caret-position="2502">
+              <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,76 +155,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/reservation.sql">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="144">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/routes.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routeForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/addRoute.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/images/1_homePage.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/UserDetailTest.java">
+        <entry file="file://$PROJECT_DIR$/images/2_loginPage.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/3_registrationPage.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ReservationService.java">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/EmailExistsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="198">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -336,7 +261,6 @@
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/homePage.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/userdetail.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/UserDetailTest.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/config/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/Users.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/routes.sql" />
@@ -361,6 +285,7 @@
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/adminPage.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/routeForm.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/addRoute.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/com/UserDetailTest.java" />
       </list>
     </option>
   </component>
@@ -371,7 +296,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="501" />
     <option name="width" value="978" />
     <option name="height" value="1032" />
@@ -394,212 +319,7 @@
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
               <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="documentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="to2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -617,7 +337,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557526673122" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557690165145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -628,8 +348,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sylwe\Desktop\abc\client\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\images" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\documentation" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\static\images" />
+      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.config.domain" />
@@ -638,12 +362,8 @@
       <recent name="com.repository" />
       <recent name="com.config.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sylwe\Desktop\qaz\to2\documentation" />
-      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\webapp\static\images" />
-      <recent name="C:\Users\sylwe\Desktop\qaz\to2\client\src\main\resources" />
-      <recent name="C:\Users\sylwe\Desktop\appTO2\abc\documentation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sylwe\Desktop\abc\client\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -658,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDetailTest.testUserDetails2">
+  <component name="RunManager" selected="Gradle.client">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -723,23 +443,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDetailTest.testUserDetails2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="abc_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.UserDetailTest" />
-      <option name="METHOD_NAME" value="testUserDetails2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -776,13 +479,11 @@
     <list>
       <item itemvalue="Gradle.client" />
       <item itemvalue="JUnit.UserDetailTest" />
-      <item itemvalue="Spring Boot.ServerApplication" />
       <item itemvalue="JUnit.UserDetailTest.testUserDetails" />
-      <item itemvalue="JUnit.UserDetailTest.testUserDetails2" />
+      <item itemvalue="Spring Boot.ServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDetailTest.testUserDetails2" />
         <item itemvalue="JUnit.UserDetailTest.testUserDetails" />
         <item itemvalue="JUnit.UserDetailTest" />
       </list>
@@ -836,29 +537,16 @@
       <workItem from="1557346136306" duration="7534000" />
       <workItem from="1557441970829" duration="1255000" />
       <workItem from="1557500361281" duration="4553000" />
-      <workItem from="1557507016076" duration="5755000" />
+      <workItem from="1557507016076" duration="6470000" />
+      <workItem from="1557529003642" duration="19000" />
+      <workItem from="1557529029410" duration="9000" />
+      <workItem from="1557529114780" duration="377000" />
+      <workItem from="1557561933121" duration="1102000" />
+      <workItem from="1557687229941" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDetailTest - 2019.05.09 at 20h 05m 43s.xml">
-      <configuration name="UserDetailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailTest_testRetrieveStudentCourse - 2019.05.09 at 20h 10m 16s.xml">
-      <configuration name="UserDetailTest.testRetrieveStudentCourse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailTest - 2019.05.10 at 00h 55m 15s.xml">
-      <configuration name="UserDetailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailTest - 2019.05.10 at 00h 55m 37s.xml">
-      <configuration name="UserDetailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailTest - 2019.05.10 at 00h 56m 10s.xml">
-      <configuration name="UserDetailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailTest - 2019.05.10 at 01h 00m 18s.xml">
-      <configuration name="UserDetailTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDetailTest - 2019.05.10 at 01h 01m 37s.xml">
       <configuration name="UserDetailTest" configurationId="JUnit" />
     </history-entry>
@@ -871,15 +559,32 @@
     <history-entry file="UserDetailTest - 2019.05.10 at 01h 03m 20s.xml">
       <configuration name="UserDetailTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.11 at 00h 16m 02s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest_testUserDetails - 2019.05.11 at 00h 16m 25s.xml">
+      <configuration name="UserDetailTest.testUserDetails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest_testUserDetails2 - 2019.05.11 at 00h 16m 42s.xml">
+      <configuration name="UserDetailTest.testUserDetails2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest_testUserDetails2 - 2019.05.11 at 00h 17m 24s.xml">
+      <configuration name="UserDetailTest.testUserDetails2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest - 2019.05.11 at 01h 04m 08s.xml">
+      <configuration name="UserDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailTest_testUserDetails - 2019.05.11 at 10h 19m 47s.xml">
+      <configuration name="UserDetailTest.testUserDetails" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290470000" />
+    <option name="totallyTimeSpent" value="294183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38218623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2923077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -887,10 +592,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32962963" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.68333334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.6888889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.6537037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -904,6 +608,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32962963" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32962963" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -960,28 +665,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/quiz1.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MyController3.java" />
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" selection-start-line="35" selection-end-line="46" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/user_roles.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/accessDenied.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1067,18 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/CRC_draft.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/crc.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/Narzedzia_harmonogram.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/UC diagram.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/CRC_draft.JPG" />
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/drop.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1150,30 +822,6 @@
             <element signature="e#1097#1098#0" expanded="true" />
             <element signature="e#1137#1138#0" expanded="true" />
             <element signature="e#1169#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1042">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-970">
-          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1300,13 +948,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/UserDetailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="414">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/crc.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/Narzedzia_harmonogram.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/UC diagram.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/EmailExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/UsersdetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1_loginPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/config/service/RoutesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1_homePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/3_registrationPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2_loginPage.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="gradleExecuteTaskHistory">
