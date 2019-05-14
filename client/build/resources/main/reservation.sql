@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS reservation(
 );
 
 INSERT INTO `reservation` (`id`, `date`, `distance`, `start_location`, `end_location`) VALUES
-(10, '07/24/2019', 1, 'Cracow', 'Warsaw'),
-(12, '11/30/2019', 12, 'Rzeszow', 'Cracow');
+(10, '07/24/2019', 292, 'Cracow', 'Warsaw'),
+(12, '11/30/2019', 168, 'Rzeszow', 'Cracow');
 COMMIT;

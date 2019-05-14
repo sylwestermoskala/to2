@@ -161,7 +161,7 @@ public class MyController {
         return "/reservation";
     }
 
-    
+
     //show update form
     @RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
     public String showUpdateUserForm(@PathVariable("id") int id, Model model) {
