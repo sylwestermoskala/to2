@@ -107,8 +107,6 @@
   <p align="center">View - the administrator can add a new route</p>
 </p>
 
-<br/><br/>
-
 ## How to run a project?
 1.	Clone or download a project from github 
 2.	Make sure you have the above tools installed (the correct versions can be found in the pom/gradle file)
