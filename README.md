@@ -1,6 +1,27 @@
 
 # Bus reservation system 
 
+## Functional requirements
+> customer <
+registration, login
+adding information
+filtering journeys
+booking of journeys
+
+> administrator <
+login
+adding, removing, modifying journeys
+
+## Technologies used in the project
+• Spring Boot 
+• Spring Framework 
+• Hibernate Framework 
+• Tomcat 
+• MySQL database 
+• HTML, CSS, Bootstrap 
+• Gradle 
+• JUnit 
+
 <br/>
 
 <p align="center">
@@ -87,3 +108,8 @@
 
 <br/><br/>
 
+## How to run a project?
+1.	Clone or download a project from github 
+2.	Make sure you have the above tools installed (the correct versions can be found in the pom/gradle file)
+3.	Open project in IntelliJ IDEA (an Ultimate version may be required)
+4.	Run the project and have fun
