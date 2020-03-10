@@ -2,26 +2,27 @@
 # Bus reservation system 
 
 ## Functional requirements
-> customer <
-registration, login
-adding information
-filtering journeys
-booking of journeys
+**customer**
+- registration, login
+- adding information
+- filtering journeys
+- booking of journeys
 
-> administrator <
-login
-adding, removing, modifying journeys
+**administrator**
+- login
+- adding, removing, modifying journeys
 
 ## Technologies used in the project
-• Spring Boot 
-• Spring Framework 
-• Hibernate Framework 
-• Tomcat 
-• MySQL database 
-• HTML, CSS, Bootstrap 
-• Gradle 
-• JUnit 
+* Spring Boot 
+* Spring Framework 
+* Hibernate Framework 
+* Tomcat 
+* MySQL database 
+* HTML, CSS, Bootstrap 
+* Gradle 
+* JUnit 
 
+## Implementation result
 <br/>
 
 <p align="center">
